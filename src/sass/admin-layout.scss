@@ -1,0 +1,51 @@
+/******************* Admin Layout Styles *********************/
+.admin-layout{
+  width: 100%;
+  display: flex;
+
+  .admin-layout-left{
+    width: 250px;
+    height: 100vh;
+    overflow-y: auto;
+    .user-information{
+      padding: 30px 10px;
+      h5{
+        font-size: 18px;
+      }
+    }
+    .menus{
+      .nav{
+        .nav-item{
+          a{
+            font-size: 25px;
+            color: #000;
+            text-decoration: none;
+            position: relative;
+            padding-left: 25px;
+            &::before{
+              content: "";
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              left: 0;
+              margin: auto;
+              width: 3px;
+              height: 0;
+              background-color: #000fff;
+              transition: all 0.3s linear;
+            }
+            &:hover::before, .active{
+              height: 100%;
+              color: #00ffff;
+            }
+          }
+        }
+      }
+    }
+  }
+  .admin-layout-right{
+    width: calc(100% - 250px);
+    padding: 30px;
+    background-color: #f2f4f8;
+  }
+}
