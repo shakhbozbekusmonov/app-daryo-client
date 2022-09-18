@@ -34,9 +34,9 @@
               background-color: #000fff;
               transition: all 0.3s linear;
             }
-            &:hover::before, .active{
+            &:hover::before, &.active{
               height: 100%;
-              color: #00ffff;
+              color: #000fff;
             }
           }
         }
