@@ -1,0 +1,19 @@
+/************************ Header Styles *********************/
+.header{
+  width: 82%;
+  height: 70px;
+  margin: 0 auto;
+  .navbar{
+    width: 100%;
+    height: 70px;
+    margin: 8px 0;
+    border: 1px solid #e4e4e4;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
+
+    a{
+      img{
+        width: 170px;
+      }
+    }
+  }
+}

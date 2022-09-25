@@ -22,9 +22,9 @@ const AdminLayout = (props) => {
                 <div className="menus">
                     <ul className="nav flex-column">
                         <li className="nav-item"><Link to="/admin/menus" className={`${history.location.pathname === "/admin/menus" ? "active" : ""} d-flex align-items-center`}><HiMenu> </HiMenu>Menular</Link></li>
-                        <li className="nav-item"><Link to="/admin/news" className={`${history.location.pathname === "/admin/news" ? "active" : ""} d-flex align-items-center`}><HiNewspaper/> Yangiliklar Uz</Link></li>
-                        <li className="nav-item"><Link to="/admin/news" className={`${history.location.pathname === "/admin/" ? "active" : ""} d-flex align-items-center`}><HiNewspaper/> Yangiliklar Ru</Link></li>
-                        <li className="nav-item"><Link to="/admin/news" className={`${history.location.pathname === "/admin/" ? "active" : ""} d-flex align-items-center`}><HiNewspaper/> Yangiliklar En</Link></li>
+                        <li className="nav-item"><Link to="/admin/news/uz" className={`${history.location.pathname === "/admin/news/uz" ? "active" : ""} d-flex align-items-center`}><HiNewspaper/> Yangiliklar (Uz)</Link></li>
+                        <li className="nav-item"><Link to="/admin/news/ru" className={`${history.location.pathname === "/admin/news/ru" ? "active" : ""} d-flex align-items-center`}><HiNewspaper/> Yangiliklar (Ru)</Link></li>
+                        <li className="nav-item"><Link to="/admin/news/en" className={`${history.location.pathname === "/admin/news/en" ? "active" : ""} d-flex align-items-center`}><HiNewspaper/> Yangiliklar (En)</Link></li>
                         <li className="nav-item"><Link to="/admin/news" className={`${history.location.pathname === "/admin/" ? "active" : ""} d-flex align-items-center`}><HiNewspaper/> Yangiliklar</Link></li>
                         <li className="nav-item"><Link to="/admin/news" className={`${history.location.pathname === "/admin/" ? "active" : ""} d-flex align-items-center`}><HiNewspaper/> Yangiliklar</Link></li>
                         <li className="nav-item"><Link to="/admin/setting" className={`${history.location.pathname === "/admin/setting" ? "active" : ""} d-flex align-items-center`}><AiFillSetting/> Sozlamalar</Link></li>

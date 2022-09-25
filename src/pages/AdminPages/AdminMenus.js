@@ -4,7 +4,7 @@ import AdminLayout from "../../components/AdminLayout";
 const AdminMenus = () => {
     return (
         <AdminLayout>
-            dgdfgdfgfd
+            Shu yerda menyu bo'lishi kerak edi.
         </AdminLayout>
     );
 };

@@ -2,6 +2,12 @@ import { UPDATE_STATE } from "../types/newsTypes";
 
 const initialState = {
     open: false,
+    newsUz: [],
+    newsRu: [],
+    newsEn: [],
+    deleteModal: false,
+    selectedIndex: '',
+    selectedItem: {},
 }
 
 export const newsReducer = (state = initialState, action) => {

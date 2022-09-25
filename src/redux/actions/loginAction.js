@@ -13,4 +13,7 @@ export const login = (values, navigate) => (dispatch) => {
           navigate("/admin/menus");
           dispatch({type: ""});
        })
+       .catch((error) => {
+           toast.error(error);
+       })
 }
