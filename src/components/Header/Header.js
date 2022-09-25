@@ -8,7 +8,7 @@ const Header = () => {
     const changeLanguage = (e)=> {
         localStorage.setItem(LANGUAGE, e.target.value);
         document.location.reload(true);
-        let loc = "http://localhost:3000/";
+        let loc = "https://daryoapp.netlify.app/";
         window.location.replace(loc + e.target.value);
     }
     return (
